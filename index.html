@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎯 JavaScript Event Playground</h1>
+
+  <button id="magicButton">Click me!</button>
+  <div id="hoverBox">Hover over me</div>
+  <input type="text" id="keyInput" placeholder="Type something..." />
+
+  <hr>
+
+  <div class="gallery">
+    <img src="https://images.pexels.com/photos/18913153/pexels-photo-18913153/free-photo-of-black-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="gallery-img" alt="Image 1">
+    <img src="https://images.pexels.com/photos/18559176/pexels-photo-18559176/free-photo-of-a-woman-with-red-hair-and-green-leaves-on-her-body.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" class="gallery-img" alt="Image 2">
+    <img src="https://images.pexels.com/photos/31602736/pexels-photo-31602736/free-photo-of-elegant-african-couple-in-traditional-attire.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" class="gallery-img" alt="Image 3">
+  </div>
+
+  <hr>
+
+  <div class="tabs">
+    <button class="tab-btn" data-tab="1">Tab 1</button>
+    <button class="tab-btn" data-tab="2">Tab 2</button>
+    <div class="tab-content" id="tab-1">This is content for Tab 1</div>
+    <div class="tab-content" id="tab-2" style="display: none;">This is content for Tab 2</div>
+  </div>
+
+  <hr>
+
+  <form id="signupForm">
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required><br>
+    <span id="feedback"></span><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
